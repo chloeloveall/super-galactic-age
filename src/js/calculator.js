@@ -1,5 +1,5 @@
 export class Calculator {
-  constructor() {
-    
+  constructor(inputtedAge) {
+    this.inputtedAge = inputtedAge;
   }
 }
