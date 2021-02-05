@@ -42,4 +42,8 @@ describe('Calculator', () => {
   test('should correctly return estimated life expectancy on Mercury', () => {
     expect(calculator.mercuryLifeExpectancy()).toEqual(336);
   });
+
+  test('should correctly return estimated life expectancy on Venus', () => {
+    expect(calculator.venusLifeExpectancy()).toEqual(132);
+  });
 })

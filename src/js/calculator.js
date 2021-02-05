@@ -28,4 +28,8 @@ export class Calculator {
   mercuryLifeExpectancy() {
     return Math.round((this.lifeExpectancy * 365) / 88);
   }
+
+  venusLifeExpectancy() {
+    
+  }
 }
