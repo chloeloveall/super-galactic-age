@@ -42,6 +42,22 @@ _View project on GH Pages: [gh-pages](https://chloeloveall.github.io/project-nam
 6. Run tests in Jest with the terminal command $ npm test
 7. If using VS Code as editor, create a launch.json file and add 'Default Jest Configuration'
 
+## Specifications
+
+| Behavior                                                           | Input  | Output |
+| ------------------------------------------------------------------ | -----: | -----: |
+| Create a Calculator class constructor                              |        |        |
+| Return user's inputted age in Mercury years (rounded)              | 30     | 124    |
+| Return user's inputted age in Venus years (rounded)                | 30     | 49     |
+| Return user's inputted age in Mars years (rounded)                 | 30     | 16     |
+| Return user's inputted age in Jupiter years (rounded)              | 30     | 3      |
+| Return user's remaining life expectancy in Mercury years (rounded) | 30     | 212    |
+| Return user's remaining life expectancy in Venus years (rounded)   | 30     | 83     |
+| Return user's remaining life expectancy in Mars years (rounded)    | 30     | 27     |
+| Return user's remaining life expectancy in Jupiter years (rounded) | 30     | 4      |
+
+<br>
+
 ## Known Bugs
 
 * None
