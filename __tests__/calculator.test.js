@@ -50,4 +50,8 @@ describe('Calculator', () => {
   test('should correctly return estimated life expectancy on Mars', () => {
     expect(calculator.marsLifeExpectancy()).toEqual(43);
   });
+
+  test('should correctly return estimated life expectancy on Jupiter', () => {
+    expect(calculator.jupiterLifeExpectancy()).toEqual(7);
+  });
 })
