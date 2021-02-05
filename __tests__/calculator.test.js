@@ -31,9 +31,9 @@ describe('Calculator', () => {
     expect(calculator.marsAge()).toEqual(16);
   });
 
-  // test('should correctly convert inputtedAge to Jupiter Age', () => {
-  //   expect(calculator.jupiterAge()).toEqual(2.5);
-  // });
+  test('should correctly convert inputtedAge to Jupiter Age', () => {
+    expect(calculator.jupiterAge()).toEqual(2.5);
+  });
 
   
 })
