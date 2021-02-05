@@ -4,6 +4,7 @@ export class Calculator {
   }
 
   earthDays() {
-
+    let ageInEarthDays = this.inputtedAge * 365;
+    return ageInEarthDays;
   }
 }
