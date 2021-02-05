@@ -32,7 +32,7 @@ describe('Calculator', () => {
   });
 
   test('should correctly convert inputtedAge to Jupiter Age', () => {
-    expect(calculator.jupiterAge()).toEqual(2.5);
+    expect(calculator.jupiterAge()).toEqual(3);
   });
 
   
