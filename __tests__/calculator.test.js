@@ -19,21 +19,21 @@ describe('Calculator', () => {
     expect(calculator.earthDays).toEqual(10950);
   });
 
-  test('should correctly convert inputtedAge to Mercury Age', () => {
-    expect(calculator.mercuryAge).toEqual(124);
-  });
+  // test('should correctly convert inputtedAge to Mercury Age', () => {
+  //   expect(calculator.mercuryAge).toEqual(124);
+  // });
 
-  test('should correctly convert inputtedAge to Venus Age', () => {
-    expect(calculator.venusAge).toEqual(124);
-  });
+  // test('should correctly convert inputtedAge to Venus Age', () => {
+  //   expect(calculator.venusAge).toEqual(124);
+  // });
 
-  test('should correctly convert inputtedAge to Mars Age', () => {
-    expect(calculator.marsAge).toEqual(124);
-  });
+  // test('should correctly convert inputtedAge to Mars Age', () => {
+  //   expect(calculator.marsAge).toEqual(124);
+  // });
 
-  test('should correctly convert inputtedAge to Jupiter Age', () => {
-    expect(calculator.jupiterAge).toEqual(2.5);
-  });
+  // test('should correctly convert inputtedAge to Jupiter Age', () => {
+  //   expect(calculator.jupiterAge).toEqual(2.5);
+  // });
 
   
 })
