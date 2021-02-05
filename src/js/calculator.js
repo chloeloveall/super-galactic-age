@@ -32,4 +32,8 @@ export class Calculator {
   venusLifeExpectancy() {
     return Math.round((this.lifeExpectancy * 365) / 225);
   }
+
+  marsLifeExpectancy() {
+    
+  }
 }
