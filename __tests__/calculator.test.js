@@ -39,5 +39,7 @@ describe('Calculator', () => {
     expect(calculator.jupiterAge()).toEqual(3);
   });
 
-  
+  test('should correctly return estimated life expectancy on Mercury', () => {
+    expect(calculator.mercuryLifeExpectancy()).toEqual(336);
+  });
 })

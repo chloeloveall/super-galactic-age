@@ -24,4 +24,8 @@ export class Calculator {
   jupiterAge() {
     return Math.round(this.inputtedAge / 12);
   }
+
+  mercuryLifeExpectancy() {
+    return Math.round((this.lifeExpectancy * 365) / 88);
+  }
 }
