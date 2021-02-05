@@ -11,4 +11,8 @@ export class Calculator {
   mercuryAge() {
     return Math.round(this.earthDays() / 88);
   }
+
+  venusAge() {
+    
+  }
 }
