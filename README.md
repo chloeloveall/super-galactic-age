@@ -1,6 +1,6 @@
 # _Super Galactic Age Calculator_
 
-#### _Brief Description_
+#### _A web application that takes a user's inputted age and returns their age and life expectancy based on the solar years of Mercury, Venus, and Jupiter_
 
 #### By _**Chloe Loveall**_
 
