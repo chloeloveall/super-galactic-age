@@ -27,9 +27,9 @@ describe('Calculator', () => {
     expect(calculator.venusAge()).toEqual(49);
   });
 
-  // test('should correctly convert inputtedAge to Mars Age', () => {
-  //   expect(calculator.marsAge()).toEqual(124);
-  // });
+  test('should correctly convert inputtedAge to Mars Age', () => {
+    expect(calculator.marsAge()).toEqual(16);
+  });
 
   // test('should correctly convert inputtedAge to Jupiter Age', () => {
   //   expect(calculator.jupiterAge()).toEqual(2.5);

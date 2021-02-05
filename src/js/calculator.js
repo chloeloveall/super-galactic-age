@@ -15,4 +15,8 @@ export class Calculator {
   venusAge() {
     return Math.round(this.earthDays() / 225);
   }
+
+  marsAge() {
+    
+  }
 }
