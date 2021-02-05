@@ -34,7 +34,7 @@ export class Calculator {
   }
 
   marsLifeExpectancy() {
-    return Math.round((this.lifeExpectancy * 365) / 687);
+    return Math.round(((this.lifeExpectancy * 365) - this.earthDays()) / 687);
   }
 
   jupiterLifeExpectancy() {
