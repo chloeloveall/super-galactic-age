@@ -4,7 +4,7 @@ describe('Calculator', () => {
   let calculator;
 
   beforeEach(() => {
-    calculator = new Calculator(30);
+    calculator = new Calculator(30, 81.1);
   });
 
   test('should correctly create a calculator object', () => {
@@ -14,6 +14,10 @@ describe('Calculator', () => {
   test('should correctly create a calculator object with inputtedAge property', () => {
     expect(calculator.inputtedAge).toEqual(30);
   });
+
+  test('should correctly create a calculator object with lifeExpectancy property', () => {
+    expect(calculator.lifeExpectancy).toEqual(81.1)
+  })
 
   test('should correctly convert inputtedAge to age in number of Earth days', () => {
     expect(calculator.earthDays()).toEqual(10950);
