@@ -28,8 +28,7 @@
 
 ## Description
 
-_In depth description_<br><br>
-_View project on GH Pages: [gh-pages](https://chloeloveall.github.io/project-name/)_<br><br>
+_In depth description_
 
 ## Setup/Installation Requirements
 
@@ -60,7 +59,7 @@ _View project on GH Pages: [gh-pages](https://chloeloveall.github.io/project-nam
 
 ## Known Bugs
 
-* None
+* None at this time
 
 ## License
 
