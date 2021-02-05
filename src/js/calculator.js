@@ -7,4 +7,8 @@ export class Calculator {
     let ageInEarthDays = this.inputtedAge * 365;
     return ageInEarthDays;
   }
+
+  mercuryAge() {
+    
+  }
 }
