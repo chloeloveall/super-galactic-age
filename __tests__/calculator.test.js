@@ -16,7 +16,7 @@ describe('Calculator', () => {
   });
 
   test('should correctly convert inputtedAge to age in number of Earth days', () => {
-    expect(calculator.earthDays).toEqual(10950);
+    expect(calculator.earthDays()).toEqual(10950);
   });
 
   // test('should correctly convert inputtedAge to Mercury Age', () => {
