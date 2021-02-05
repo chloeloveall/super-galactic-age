@@ -30,7 +30,7 @@ export class Calculator {
   }
 
   venusLifeExpectancy() {
-    return Math.round((this.lifeExpectancy * 365) / 225);
+    return Math.round(((this.lifeExpectancy * 365) - this.earthDays()) / 225);
   }
 
   marsLifeExpectancy() {
