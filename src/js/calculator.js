@@ -17,6 +17,6 @@ export class Calculator {
   }
 
   marsAge() {
-    
+    return Math.round(this.earthDays() / 687);
   }
 }
