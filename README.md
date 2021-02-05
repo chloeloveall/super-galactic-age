@@ -1,4 +1,4 @@
-# _Project Name_
+# _Super Galactic Age Calculator_
 
 #### _Brief Description_
 
@@ -34,12 +34,13 @@ _View project on GH Pages: [gh-pages](https://chloeloveall.github.io/project-nam
 ## Setup/Installation Requirements
 
 1. Clone the repository with the following git command:
-    >$ git clone https://github.com/chloeloveall/project-name.git
+    >$ git clone https://github.com/chloeloveall/super-galactic-age.git
 2. Open the project directory in your terminal
 3. Recreate the project environment by running the terminal command $ npm install
 4. Create the production environment by running the terminal command $ npm run build
 5. Open the project in the browser of your choice with the terminal command $ npm run start
 6. Run tests in Jest with the terminal command $ npm test
+7. If using VS Code as editor, create a launch.json file and add 'Default Jest Configuration'
 
 ## Known Bugs
 
