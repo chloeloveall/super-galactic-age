@@ -38,6 +38,6 @@ export class Calculator {
   }
 
   jupiterLifeExpectancy() {
-    
+    return Math.round(this.lifeExpectancy / 12);
   }
 }
