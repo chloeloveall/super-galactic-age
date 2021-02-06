@@ -54,3 +54,8 @@ body {
   position: absolute;
   bottom: 0;
 }
+
+#thanks {
+  display: none;
+  padding: 20px;
+}
