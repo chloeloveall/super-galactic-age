@@ -5,6 +5,10 @@ export class Calculator {
     this.lifeExpectancy = lifeExpectancy;
   }
 
+  thankYou() {
+    
+  }
+
   earthDays() {
     let ageInEarthDays = this.inputtedAge * 365;
     return ageInEarthDays;
