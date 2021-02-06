@@ -1,33 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Coda+Caption:800');
+
 body {
   background-color: #000000;
   color: #ffffff;
   background-image: url(https://media.giphy.com/media/xT8qBfjJhOmNPTVWU0/source.gif);
   background-size: 100%;
   margin: auto;
+  font-family: 'Coda Caption', sans-serif;
 }
 
-#planetAgeOutput {
-  display: none;
+.row {
+  margin-bottom: 25px;
 }
-
-#demographics img {
-  display: none;
-  width: fit-content;
-  height: auto;
-}
-
-@import url('https://fonts.googleapis.com/css?family=Coda+Caption:800');
 
 .title {
-  margin: 30px;
+  margin: 50px;
   text-align: center;
-  font-family: 'Coda Caption', sans-serif;
   font-weight: 800;
   line-height: 1.0;
   letter-spacing: -0.03em;
   transform: perspective(200px) scaleY(1.5) rotateX(-40deg);
-  color: darkgoldenrod;
-  text-shadow: 3px 3px red;
+  color: #b8860b;
+  text-shadow: 3px 3px #ff0000;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-color: #000000;
+}
+
+.card {
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 5px 5px #ff0000;
+  border: 3px solid #000000;
+  opacity: .9;
+  padding-top: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.card-header {
+  background-color: #0275d8;
+  color: #ffffff;
+  border: 2px solid #ff0000;
+  font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+}
+
+.card-deck {
+  margin-bottom: 30px;
+}
+
+.text-muted {
+  position: absolute;
+  bottom: 0;
 }
