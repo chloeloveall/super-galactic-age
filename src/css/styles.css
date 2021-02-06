@@ -12,3 +12,9 @@ h1 {
 #planetAgeOutput {
   display: none;
 }
+
+#demographics img {
+  display: none;
+  width: fit-content;
+  height: auto;
+}
