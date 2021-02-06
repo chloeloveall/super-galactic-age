@@ -6,7 +6,7 @@ export class Calculator {
   }
 
   thankYou() {
-    let thanks = `Thank you for using the Super Galactic Calculator, ${this.inputtedName}!`
+    let thanks = `Thank you for using the Super Galactic Calculator, ${this.inputtedName}! Take a look at your results below!`;
     return thanks;
   }
 
