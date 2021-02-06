@@ -6,9 +6,13 @@ import './css/styles.css';
 
 $('form#age-info').submit(function(event) {
   event.preventDefault();
+  const inputtedName = $('input#name').val();
   const inputtedAge = $('input#age').val();
   const inputtedLifeExpectancy = $('input#lifeExpectancy').val();
-  let calculator = new Calculator(inputtedAge, inputtedLifeExpectancy);
+  let calculator = new Calculator(inputtedName, inputtedAge, inputtedLifeExpectancy);
+
+  $('#age-info').hide();
+  $('#thanks').text(calculator.thankYou()).show();
 
   $('#mercury-age').text(calculator.mercuryAge());
   $('#mercury-expectancy').text(calculator.mercuryLifeExpectancy());
