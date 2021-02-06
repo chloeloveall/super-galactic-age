@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <title>Template Repo</title>
+  <title>Super Galactic Age Calculator</title>
 </head>
 <body>
   <div class="container">
-    <h1>Welcome!</h1>
+    <h1>Super Galactic Age Calculator!</h1>
+    
+    <div class="row">
+      <div class="col">
+        <p>Instructions</p>
+      </div>
+      <div class="col" id="demographics">
+        <p>Click <span>here</span> to view life expectancy demographics</p>
+        <img src="assets/images/life-expectancy.jpg" alt="An color coded map with life expectancy information by country">
+      </div>
+    </div>
+
+    
+    <div id="ageRelatedForm">
+      <form>
+        <div class="form-group">
+          <label for="inputtedAge">Your current age: </label>
+          <input type="number" class="form-control" id="" placeholder="Enter your age">
+        </div>
+        <div class="form-group">
+          <label for="lifeExpectancy">Life Expectancy for your demographic: </label>
+          <input type="number" class="form-control" id="" placeholder="Enter your life expectancy">
+        </div>
+        <button type="submit" class="btn btn-primary">Calculate</button>
+      </form>
+    </div>
+
+    <div id="planetAgeOutput">
+      <p>This is where age info will display to user</p>
+    </div>
 
   </div>
 </body>
