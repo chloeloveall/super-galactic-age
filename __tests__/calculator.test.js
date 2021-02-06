@@ -24,7 +24,7 @@ describe('Calculator', () => {
   })
 
   test('should correctly return inputted name and thank you message', () => {
-    expect(calculator.thankYou()).toEqual('Thank you for using the Super Galactic Calculator, Chloe!');
+    expect(calculator.thankYou()).toEqual('Thank you for using the Super Galactic Calculator, Chloe! Take a look at your results below!');
   })
 
   test('should correctly convert inputtedAge to age in number of Earth days', () => {
