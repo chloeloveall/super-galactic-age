@@ -1,5 +1,5 @@
 export class Calculator {
-  constructor(inputtedAge, lifeExpectancy) {
+  constructor(inputtedName, inputtedAge, lifeExpectancy) {
     this.inputtedAge = inputtedAge;
     this.lifeExpectancy = lifeExpectancy;
   }

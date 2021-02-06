@@ -4,12 +4,16 @@ describe('Calculator', () => {
   let calculator;
 
   beforeEach(() => {
-    calculator = new Calculator(30, 81.1);
+    calculator = new Calculator('Chloe', 30, 81.1);
   });
 
   test('should correctly create a calculator object', () => {
     expect(calculator).toBeInstanceOf(Calculator);
   });
+
+  test('should correctly create a calculator object with inputtedName property', () => {
+    expect(calculator.inputtedName).toEqual('Chloe');
+  })
 
   test('should correctly create a calculator object with inputtedAge property', () => {
     expect(calculator.inputtedAge).toEqual(30);
