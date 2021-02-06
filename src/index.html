@@ -12,33 +12,69 @@
     
     <div class="row">
       <div class="col">
-        <p>Instructions</p>
-      </div>
-      <div class="col" id="demographics">
-        <p>Click <span>here</span> to view life expectancy demographics</p>
-        <img src="assets/images/life-expectancy.jpg" alt="An color coded world map with life expectancy information by country">
-      </div>
-    </div>
-
-    
-    <div id="ageRelatedForm">
-      <form>
-        <div class="form-group">
-          <label for="inputtedAge">Your current age: </label>
-          <input type="number" class="form-control" id="" placeholder="Enter your age">
+        <div class="card">
+          <div class="card-header">
+            <h5 class="card-title">How old are you on other planets?</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text">A solar year lasts 365 days on planet Earth. However, the length of a solar year varies from planet to planet - changing your age and life expectancy along with it!</p>
+            <p class="card-text">To use the Super Galactic Age Calculator, just enter your age and life expectancy in Earth years!</p>
+            <p class="card-text">The calculator will reveal your current age and remaining life expectancy on Mercury, Venus, Mars, and Jupiter</p>
+            <p class="card-text"><a href="https://en.wikipedia.org/wiki/List_of_countries_by_life_expectancy">Click here</a> for a link to check your life expectancy.</p>
+          </div>
         </div>
-        <div class="form-group">
-          <label for="lifeExpectancy">Life Expectancy for your demographic: </label>
-          <input type="number" class="form-control" id="" placeholder="Enter your life expectancy">
-        </div>
-        <button type="submit" class="btn btn-primary">Calculate</button>
-      </form>
+      </div>
+      <div class="col">
+        <form id="age-info">
+          <div class="form-group">
+            <label for="inputtedAge">Your current age: </label>
+            <input type="number" class="form-control" id="age" placeholder="Enter your age">
+          </div>
+          <div class="form-group">
+            <label for="lifeExpectancy">Life Expectancy on Earth: </label>
+            <input type="number" class="form-control" id="lifeExpectancy" placeholder="Enter your life expectancy">
+          </div>
+          <button type="submit" class="btn btn-primary">Calculate</button>
+          <p><small class="text-muted">*** All results are rounded to the nearest whole number</small></p>
+        </form>
+      </div>
     </div>
 
     <div id="planetAgeOutput">
-      <p>This is where age info will display to user</p>
-    </div>
-
+      <div class="card-deck">
+        <div class="card">
+          <img src="assets/images/mercury.jpg" class="card-img-top" alt="Image of the planet Mercury">
+          <div class="card-body">
+            <h5 class="card-title">Mercury</h5>
+            <p class="card-text">Age: <span id="mercury-age"></span></p>
+            <p class="card-text">Remaining Life Expectancy: <span id="mercury-expectancy"></span></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/images/venus.jpg" class="card-img-top" alt="Image of the planet Venus">
+          <div class="card-body">
+            <h5 class="card-title">Venus</h5>
+            <p class="card-text">Age: <span id="venus-age"></span></p>
+            <p class="card-text">Remaining Life Expectancy: <span id="venus-expectancy"></span></p>    
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/images/mars.jpg" class="card-img-top" alt="Image of the planet Mars">
+          <div class="card-body">
+            <h5 class="card-title">Mars</h5>
+            <p class="card-text">Age: <span id="mars-age"></span></p>
+            <p class="card-text">Remaining Life Expectancy: <span id="mars-expectancy"></span></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/images/jupiter.jpg" class="card-img-top" alt="Image of the planet Jupiter">
+          <div class="card-body">
+            <h5 class="card-title">Jupiter</h5>
+            <p class="card-text">Age: <span id="jupiter-age"></span></p>
+            <p class="card-text">Remaining Life Expectancy: <span id="jupiter-expectancy"></span></p>
+          </div>
+        </div>
+      </div>
   </div>
 </body>
 </html>
