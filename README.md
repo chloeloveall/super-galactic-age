@@ -1,6 +1,6 @@
 # _Super Galactic Age Calculator_
 
-#### _A web application that takes a user's inputted age and returns their age and life expectancy based on the solar years of Mercury, Venus, and Jupiter_
+#### _A web application that takes a user's inputted age and returns their age and life expectancy based on the solar years of Mercury, Venus, Mars, and Jupiter_
 
 #### By _**Chloe Loveall**_
 
@@ -28,7 +28,11 @@
 
 ## Description
 
-_In depth description_
+_An Epicodus student project to practice working with TDD, ES6 features, and development/production environments_
+<br>
+_The application has a form to allow user to input their name, current age, and life expectancy. It then returns their approximate age and remaining life expectancy based on the solar years of Mercury, Venus, Mars, and Jupiter._
+<br>
+_Project is retro space themed and styled using Bootstrap and CSS. The focus of the project is JavaScript (jQuery used for User Interface Logic) and TDD with Jest._
 
 ## Setup/Installation Requirements
 
