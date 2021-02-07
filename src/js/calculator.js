@@ -6,7 +6,9 @@ export class Calculator {
   }
 
   defaultNameOption() {
-    
+    if (this.inputtedName === '' || this.inputtedName === ' ') {
+      return 'User';
+    }
   }
 
   thankYou() {
