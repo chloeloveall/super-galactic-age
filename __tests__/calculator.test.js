@@ -61,7 +61,7 @@ describe('Calculator', () => {
     expect(calculator.mercuryLifeExpectancy()).toEqual(212);
   });
 
-  test('should correctly return alternate message if inputtedAge is greater than lifeExpectancy', () => {
+  test('should correctly return alternate Mercury life expectancy message if inputtedAge is greater than lifeExpectancy', () => {
     let alternateCalculator = new Calculator('Jane', 91, 81);
     expect(alternateCalculator.mercuryLifeExpectancy()).toEqual('You have surpassed your life expectancy by 41 years. Keep kickin\', Jane!')
   })
