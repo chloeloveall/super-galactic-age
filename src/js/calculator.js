@@ -64,6 +64,11 @@ export class Calculator {
   }
 
   jupiterLifeExpectancy() {
-    return Math.round((this.lifeExpectancy - this.inputtedAge) / 12);
+    if (this.inputtedAge > this.lifeExpectancy) { 
+      return `You have surpassed your life expectancy by ${Math.round((this.inputtedAge - this.lifeExpectancy) / 12)} years. Keep kickin', ${this.defaultNameOption()}!`;
+    } else {
+      return Math.round((this.lifeExpectancy - this.inputtedAge) / 12);
+    }
   }
-}
+
+};
