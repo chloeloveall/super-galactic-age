@@ -5,6 +5,10 @@ export class Calculator {
     this.lifeExpectancy = lifeExpectancy;
   }
 
+  defaultNameOption() {
+    
+  }
+
   thankYou() {
     let thanks = `Thank you for using the Super Galactic Age Calculator, ${this.inputtedName}! Take a look at your results below!`;
     return thanks;

@@ -23,6 +23,11 @@ describe('Calculator', () => {
     expect(calculator.lifeExpectancy).toEqual(81.1);
   })
 
+  test('should correctly return a default name if no name is inputted', () => {
+    let noNameCalculator = new Calculator('', 20, 81);
+    expect(noNameCalculator.defaultNameOption()).toEqual('User');
+  })
+
   test('should correctly return inputted name and thank you message', () => {
     expect(calculator.thankYou()).toEqual('Thank you for using the Super Galactic Age Calculator, Chloe! Take a look at your results below!');
   })
