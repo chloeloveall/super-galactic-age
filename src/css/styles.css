@@ -48,6 +48,9 @@ body {
 
 .card-deck {
   margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+  grid-gap: .5rem;
 }
 
 .text-muted {
