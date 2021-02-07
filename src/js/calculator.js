@@ -56,7 +56,11 @@ export class Calculator {
   }
 
   marsLifeExpectancy() {
-    return Math.round(((this.lifeExpectancy * 365) - this.earthDays()) / 687);
+    if (this.inputtedAge > this.lifeExpectancy) {
+      return `You have surpassed your life expectancy by ${Math.round((this.earthDays() - (this.lifeExpectancy * 365)) / 687)} years. Keep kickin', ${this.defaultNameOption()}!`;
+    } else {
+      return Math.round(((this.lifeExpectancy * 365) - this.earthDays()) / 687);
+    }
   }
 
   jupiterLifeExpectancy() {
