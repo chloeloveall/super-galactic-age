@@ -28,6 +28,11 @@ describe('Calculator', () => {
     expect(noNameCalculator.defaultNameOption()).toEqual('User');
   })
 
+  test('should correctly return inputted name', () => {
+    let namedCalculator = new Calculator('Joe', 20, 81);
+    expect(namedCalculator.defaultNameOption()).toEqual('Joe');
+  })
+
   test('should correctly return inputted name and thank you message', () => {
     expect(calculator.thankYou()).toEqual('Thank you for using the Super Galactic Age Calculator, Chloe! Take a look at your results below!');
   })
