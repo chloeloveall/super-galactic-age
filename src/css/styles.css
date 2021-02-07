@@ -59,3 +59,18 @@ body {
   display: none;
   padding: 20px;
 }
+
+#planetAgeOutput .card-title {
+  color: #ff0000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+}
+
+#planetAgeOutput .card-text {
+  color: #0275d8;
+}
+
+#mercury-age, #mercury-expectancy, #venus-age, #venus-expectancy, #mars-age, #mars-expectancy, #jupiter-age, #jupiter-expectancy {
+  color: #000000;
+  font-family: sans-serif;
+}
