@@ -62,13 +62,15 @@ export class Calculator {
       return Math.round(((this.lifeExpectancy * 365) - this.earthDays()) / 687);
     }
   }
-
+  
   jupiterLifeExpectancy() {
-    if (this.inputtedAge > this.lifeExpectancy) { 
+    if (this.inputtedAge > this.lifeExpectancy && 0 < (Math.round((this.inputtedAge - this.lifeExpectancy) / 12)) < 1) {
+      return `You have surpassed your life expectancy by 1 year. Keep kickin', ${this.defaultNameOption()}!`;
+    } else if (this.inputtedAge > this.lifeExpectancy) { 
       return `You have surpassed your life expectancy by ${Math.round((this.inputtedAge - this.lifeExpectancy) / 12)} years. Keep kickin', ${this.defaultNameOption()}!`;
     } else {
       return Math.round((this.lifeExpectancy - this.inputtedAge) / 12);
     }
   }
 
-};
+}
