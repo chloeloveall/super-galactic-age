@@ -6,7 +6,7 @@ export class Calculator {
   }
 
   thankYou() {
-    let thanks = `Thank you for using the Super Galactic Calculator, ${this.inputtedName}! Take a look at your results below!`;
+    let thanks = `Thank you for using the Super Galactic Age Calculator, ${this.inputtedName}! Take a look at your results below!`;
     return thanks;
   }
 
@@ -32,7 +32,7 @@ export class Calculator {
   }
 
   mercuryLifeExpectancy() {
-    return Math.round(((this.lifeExpectancy * 365) - this.earthDays()) / 88);
+      return Math.round(((this.lifeExpectancy * 365) - this.earthDays()) / 88);
   }
 
   venusLifeExpectancy() {

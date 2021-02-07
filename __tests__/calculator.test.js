@@ -24,7 +24,7 @@ describe('Calculator', () => {
   })
 
   test('should correctly return inputted name and thank you message', () => {
-    expect(calculator.thankYou()).toEqual('Thank you for using the Super Galactic Calculator, Chloe! Take a look at your results below!');
+    expect(calculator.thankYou()).toEqual('Thank you for using the Super Galactic Age Calculator, Chloe! Take a look at your results below!');
   })
 
   test('should correctly convert inputtedAge to age in number of Earth days', () => {
@@ -50,6 +50,11 @@ describe('Calculator', () => {
   test('should correctly return approximate remaining life expectancy on Mercury', () => {
     expect(calculator.mercuryLifeExpectancy()).toEqual(212);
   });
+
+  test('should correctly return alternate message if inputtedAge is greater than lifeExpectancy', () => {
+    let alternateCalculator = new Calculator('Jane', 91, 81);
+    expect(alternateCalculator.mercuryLifeExpectancy()).toEqual('You have surpassed your life expectancy by 41 years. Keep kickin\', Jane!')
+  })
 
   test('should correctly return approximate remaining life expectancy on Venus', () => {
     expect(calculator.venusLifeExpectancy()).toEqual(83);
