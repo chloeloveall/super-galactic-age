@@ -28,7 +28,7 @@
 
 ## Description
 
-_An Epicodus student project to practice working with TDD, ES6 features, and development/production environments_
+_An Epicodus student project to practice working with TDD, ES6 features, and development/production environments._
 <br>
 _The application has a form to allow user to input their name, current age, and life expectancy. It then returns their approximate age and remaining life expectancy based on the solar years of Mercury, Venus, Mars, and Jupiter._
 <br>
