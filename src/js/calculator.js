@@ -6,13 +6,15 @@ export class Calculator {
   }
 
   defaultNameOption() {
-    if (this.inputtedName === '' || this.inputtedName === ' ') {
+    if (this.inputtedName === '' || this.inputtedName === ' ' || this.inputtedName === null) {
       return 'User';
+    } else {
+      return this.inputtedName;
     }
   }
 
   thankYou() {
-    let thanks = `Thank you for using the Super Galactic Age Calculator, ${this.inputtedName}! Take a look at your results below!`;
+    let thanks = `Thank you for using the Super Galactic Age Calculator, ${this.defaultNameOption()}! Take a look at your results below!`;
     return thanks;
   }
 
@@ -39,7 +41,7 @@ export class Calculator {
 
   mercuryLifeExpectancy() {
     if (this.inputtedAge > this.lifeExpectancy) {
-      return `You have surpassed your life expectancy by ${Math.round((this.earthDays() - (this.lifeExpectancy * 365)) / 88)} years. Keep kickin', ${this.inputtedName}!`;
+      return `You have surpassed your life expectancy by ${Math.round((this.earthDays() - (this.lifeExpectancy * 365)) / 88)} years. Keep kickin', ${this.defaultNameOption()}!`;
     } else {
       return Math.round(((this.lifeExpectancy * 365) - this.earthDays()) / 88);
     }
