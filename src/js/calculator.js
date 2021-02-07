@@ -32,7 +32,11 @@ export class Calculator {
   }
 
   mercuryLifeExpectancy() {
+    if (this.inputtedAge > this.lifeExpectancy) {
+      return `You have surpassed your life expectancy by ${Math.round((this.earthDays() - (this.lifeExpectancy * 365)) / 88)} years. Keep kickin', ${this.inputtedName}!`;
+    } else {
       return Math.round(((this.lifeExpectancy * 365) - this.earthDays()) / 88);
+    }
   }
 
   venusLifeExpectancy() {
