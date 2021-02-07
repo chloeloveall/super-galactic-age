@@ -1,3 +1,5 @@
+// User Interface Logic ---------
+
 import { Calculator } from './../src/js/calculator.js';
 import $ from 'jquery';
 import 'bootstrap';

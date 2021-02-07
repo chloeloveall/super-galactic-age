@@ -1,3 +1,5 @@
+// Business Logic ---------
+
 export class Calculator {
   constructor(inputtedName, inputtedAge, lifeExpectancy) {
     this.inputtedName = inputtedName;
