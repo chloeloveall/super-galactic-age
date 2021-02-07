@@ -70,11 +70,26 @@ describe('Calculator', () => {
     expect(calculator.venusLifeExpectancy()).toEqual(83);
   });
 
+  test('should correctly return alternate Venus life expectancy message if inputtedAge is greater than lifeExpectancy', () => {
+    let alternateCalculator = new Calculator('Jane', 91, 81);
+    expect(alternateCalculator.venusLifeExpectancy()).toEqual('You have surpassed your life expectancy by 16 years. Keep kickin\', Jane!')
+  })
+
   test('should correctly return approximate remaining life expectancy on Mars', () => {
     expect(calculator.marsLifeExpectancy()).toEqual(27);
   });
 
+  test('should correctly return alternate Mars life expectancy message if inputtedAge is greater than lifeExpectancy', () => {
+    let alternateCalculator = new Calculator('Jane', 91, 81);
+    expect(alternateCalculator.marsLifeExpectancy()).toEqual('You have surpassed your life expectancy by 5 years. Keep kickin\', Jane!')
+  })
+
   test('should correctly return approximate remaining life expectancy on Jupiter', () => {
     expect(calculator.jupiterLifeExpectancy()).toEqual(4);
   });
+
+  test('should correctly return alternate Jupiter life expectancy message if inputtedAge is greater than lifeExpectancy', () => {
+    let alternateCalculator = new Calculator('Jane', 91, 81);
+    expect(alternateCalculator.jupiterLifeExpectancy()).toEqual('You have surpassed your life expectancy by 1 years. Keep kickin\', Jane!')
+  })
 })
